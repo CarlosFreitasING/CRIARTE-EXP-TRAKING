@@ -32,3 +32,4 @@ exp_imgset_pretracking/yoloModels/*
 exp_imgset_pretracking/UI/venv/
 # Ignore model files
 exp_imgset_pretracking/embeModels/
+!exp_imgset_pretracking/embeModels/osnet_x0_5.pth
