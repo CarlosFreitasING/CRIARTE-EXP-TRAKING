@@ -1,0 +1,32 @@
+# Ignorar entornos virtuales y archivos de entorno
+venv/
+.env/
+.python_env/
+
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración de VSCode y otros IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos de sistema
+Thumbs.db
+.DS_Store
+
+# Ignorar archivos de logs y temporales
+*.log
+*.out
+*.tmp
+
+# Ignorar contenido de videoProcesado pero no la carpeta
+exp_imgset_pretracking/videoProcesado/*
+!exp_imgset_pretracking/videoProcesado/.gitkeep
+# Ignore all files in yoloModels except yolo26n-pose.pt and yolo26n-seg.pt
+exp_imgset_pretracking/yoloModels/*
+!exp_imgset_pretracking/yoloModels/yolo26n-pose.pt
+!exp_imgset_pretracking/yoloModels/yolo26n-seg.pt
+
+# Ignorar entorno virtual de UI
+exp_imgset_pretracking/UI/venv/
