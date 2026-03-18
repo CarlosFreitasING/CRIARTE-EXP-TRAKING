@@ -30,3 +30,5 @@ exp_imgset_pretracking/yoloModels/*
 
 # Ignorar entorno virtual de UI
 exp_imgset_pretracking/UI/venv/
+# Ignore model files
+exp_imgset_pretracking/embeModels/
